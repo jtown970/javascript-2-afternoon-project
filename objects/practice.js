@@ -99,7 +99,7 @@ function evenFinder(x) {
   }
   return even;
 }
-// NOTE: the test for this is wrong the array has more even numbers then test says it should also do not contain the number 4
+
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
@@ -123,6 +123,19 @@ var numbersArray = [1,2,34,54,55,34,32,11,19,17,54,66,13];
 */
 
 //Code Here
+let divider = (numbersArray,) => {
+
+  let evens = numbersArray.filter(function(element){
+    return element % 2 === 0
+  });
+
+  let odds = numbersArray.filter(function(element){
+    return element % 2 !== 0
+  }); 
+    return [evens, odds]
+}
+
+divider(numbersArray)
 
 
 
