@@ -158,6 +158,15 @@ var getRandomArbitrary = function() {
 */
 
 //Code Here
+let finder = (arr) => {
+  let randomNumber = getRandomArbitrary()
+
+  return(arr.includes(randomNumber))
+
+}
+finder()
+
+
 
 
 
@@ -187,6 +196,9 @@ var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
 */
 
 //Code Here
+let removeItem = (myGroceryList, item) => {
+  
+}
 
 
 
